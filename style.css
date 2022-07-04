@@ -1,0 +1,112 @@
+
+
+body {
+    background-image: url(./GettyImages_923317150.0.jpg);
+padding: 0;
+}
+
+.czas{
+    width: 100%;
+    background: yellow;
+    text-align: center;
+    padding: 3px;
+    box-sizing: border-box;
+    border: 2px black solid;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0;
+    top: 0;
+    left: 0;  
+}
+
+.form__input {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.input {
+    height: 3rem;
+    width: 23.7rem;
+    background-color: aqua;
+    font-weight: bold;
+}
+
+.add_new_class {
+    height: 3rem;
+    color: black;
+    background-color: aqua;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.checked {
+    text-decoration: line-through;
+    font-style: italic;
+    color: #333;
+}
+
+.tytul {
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: orangered;
+
+}
+ 
+.radio {
+    border: 2px red solid;
+    background-color: lightgreen;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 60%;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    list-style-type: none;
+}
+
+.cross {
+    text-decoration: line-through;
+}
+
+.task  {
+
+    width: 40%;
+    margin: 5px 30%;
+    list-style-type: none;
+}
+
+#radio_check {
+    display: inline-block;
+}
+
+.button__cross {
+    display: inline block;
+    box-sizing: border-box;
+    color: red;
+    background: greenyellow;
+    font-weight: bold;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border:2px solid black;
+    width: 40%; 
+}
+
+.button__remove {
+    display: inline block;
+    box-sizing: border-box;
+    color: red;
+    background: greenyellow;
+    font-weight: bold;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border:2px solid black;
+    width: 40%;
+    margin-left: 10%;
+}
